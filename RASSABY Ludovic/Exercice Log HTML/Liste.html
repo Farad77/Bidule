@@ -3,71 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des Utilisateurs</title>
+    <title>Liste des Utilisateurs CDA8</title>
+    <!-- Link Data Table-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
 </head>
 <body>
-    <h2>Liste des etudients de cda8</h2>
-    <table border="1" cellpadding="10" cellspacing="0">
-        <tr>
-            <th>Nom d'utilisateur</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>cestLeMatin</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Cheun.md</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>despacito</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Dorian</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Gabriel</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Jeremy</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Jerome</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Lou</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>sgg</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Theo</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Thomy</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Toma</td>
-            <td>@example.com</td>
-        </tr>
-        <tr>
-            <td>Ludovic</td>
-            <td>@example.com</td>
-        </tr>
+    <h2>Liste des étudiants de CDA8</h2>
+
+    <table id="mTable1" class="display">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AHOVEY</td>
+                <td>SaintGeorge</td>
+            </tr>
+            <tr>
+                <td>AHYONG</td>
+                <td>Emjy</td>
+            </tr>
+            <tr>
+                <td>BToma</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>CELEMANI</td>
+                <td>Theo</td>
+            </tr>
+            <tr>
+                <td>Cheun</td>
+                <td>RAMASSY</td>
+            </tr>
+            <tr>
+                <td>Demontis</td>
+                <td>Matisse</td>
+            </tr>
+            <tr>
+                <td>GRONDIN</td>
+                <td>Clarel</td>
+            </tr>
+            <tr>
+                <td>Jeremy</td>
+                <td>Hoarau</td>
+            </tr>
+            <tr>
+                <td>MUNIER</td>
+                <td>Jerome</td>
+            </tr>
+            <tr>
+                <td>Pedre</td>
+                <td>Gabriel</td>
+            </tr>
+            <tr>
+                <td>Sebastien</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>Thomy</td>
+                <td>Noel</td>
+            </tr>
+            <tr>
+                <td>Dorian</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Lou</td>
+                <td></td>
+            </tr>
+        </tbody>
     </table>
 
-      <!-- Bouton pour revenir à la page index.html -->
-      <br>
-      <button onclick="window.location.href='index.html'">Revenir à la page de connexion</button>
+    <!-- Bouton pour revenir à la page index.html -->
+    <br>
+    <button onclick="window.location.href='index.html'">Revenir à la page de connexion</button>
+
+    <!-- Script Data Table-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#mTable1').DataTable();
+        });
+    </script>
 </body>
 </html>
