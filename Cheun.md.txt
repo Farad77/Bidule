@@ -1,1 +1,5 @@
-AHAHAHHAHA GOTAGAAAAAAA
+<<<<<<< HEAD
+jkerklg,eorfiopefr
+=======
+AHAHAHHAHA GOTAGAAAAAAA, alors les gentle mate
+>>>>>>> d6c65328bfa0b5937a6a1944aeafa12e384d5216
