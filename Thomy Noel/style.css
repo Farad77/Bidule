@@ -1,7 +1,14 @@
-form{
+#connection{
     width: 20%;
     margin: 64px auto;
+    background-color: rgb(245, 238, 230);
+    border-radius: 10%;
+    box-shadow: black;
+    padding: 32px;
 
+}
+h1{
+    text-align: center;
 }
 #navig{
     height: 100px;
