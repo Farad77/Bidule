@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.logo_social{
+    padding: 5px;
+    position: absolute;
+    right: 1vw;
+    font-size: 25px;
+}
+    .fb_logo, .lk_logo {
+        padding: 2px;
+    }
+
+.header_2{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.logo_zone{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+
+}
+h1{
+    padding: 1vw;
+    max-width: 35vw;
+}
+
+.button_zone{
+    justify-content: space-around;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.btn_exper{
+    padding: 5px;
+    background: orange;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.contact_zone{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+    .contact_title{
+        color: #009de0 ;
+    }
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: #009de0;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.navBar a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown{
+    border: none;
+    background-color: #009de0;
+    color: white;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.container-fluid{
+ padding: 0;
+}
+
+
+.form_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+}
+
+.forgot-password{
+    padding: 1vw;
+}
