@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Connexion</title>
+
+    <!-- Lien vers le CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-md-8 offset-md-3">
+                <!-- Ajout de l'image au-dessus du formulaire -->
+                <div class="text-center mb-4">
+                    <img src="https://expernet.re/wp-content/themes/tm-bootstrap/images/logo.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
+                </div>
+
+                <h2 class="text-center mb-4">Formulaire de Connexion</h2>
+                <form action="liste.html" method="POST">
+                    <div class="form-group">
+                        <label for="username">Email :</label>
+                        <input type="text" id="username" name="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mot de passe :</label>
+                        <input type="password" id="password" name="password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+                </form>
+                <p class="text-center mt-3">
+                    Pour vous connecter anonymement, suivez le 
+                    <a href="liste.html" class="link-opacity-100">lien suivant</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lien vers le JS de Bootstrap et de jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
