@@ -1,0 +1,51 @@
+#connection{
+    width: 20%;
+    margin: 64px auto;
+    background-color: rgb(245, 238, 230);
+    border-radius: 10%;
+    box-shadow: black;
+    padding: 32px;
+
+}
+h1{
+    text-align: center;
+}
+#navig{
+    height: 100px;
+    background-color: #009BDE;
+    color: white;
+}
+nav a{
+    color: white;
+}
+a{
+    color: white;
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+}
+#btn{
+    background-color: #FFC329;
+    border: none;
+    border-radius: 10px;
+}
+.Liste{
+    width: 50%;
+    margin: 64px auto;
+}
+.header{
+    display: flex;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+}
+.logo{
+    background-image: url("Logo-EXPERNET-2024.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 100px;
+}
+.text{
+    color: #009BDE;
+}
