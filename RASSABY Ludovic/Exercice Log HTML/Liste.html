@@ -4,85 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des Utilisateurs CDA8</title>
-    <!-- Link Data Table-->
+
+    <!-- Lien vers le CSS de Bootstrap et de ton thème -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://expernet.re/wp-content/themes/tm-bootstrap/style.css">
+    <link rel="stylesheet" href="https://expernet.re/wp-content/themes/tm-bootstrap/bootstrap-custom.css">
+
+    <!-- Lien vers DataTables -->
     <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Roboto', sans-serif;
+        }
+        .table-container {
+            margin-top: 50px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .text-center a {
+            color: #007bff;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 1.5rem;
+            max-width: 150px;
+        }
+        h2 {
+            color: #333333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h2>Liste des étudiants de CDA8</h2>
 
-    <table id="mTable1" class="display">
-        <thead>
-            <tr>
-                <th>Nom</th>
-                <th>Prénom</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>AHOVEY</td>
-                <td>SaintGeorge</td>
-            </tr>
-            <tr>
-                <td>AHYONG</td>
-                <td>Emjy</td>
-            </tr>
-            <tr>
-                <td>BToma</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>CELEMANI</td>
-                <td>Theo</td>
-            </tr>
-            <tr>
-                <td>Cheun</td>
-                <td>RAMASSY</td>
-            </tr>
-            <tr>
-                <td>Demontis</td>
-                <td>Matisse</td>
-            </tr>
-            <tr>
-                <td>GRONDIN</td>
-                <td>Clarel</td>
-            </tr>
-            <tr>
-                <td>Jeremy</td>
-                <td>Hoarau</td>
-            </tr>
-            <tr>
-                <td>MUNIER</td>
-                <td>Jerome</td>
-            </tr>
-            <tr>
-                <td>Pedre</td>
-                <td>Gabriel</td>
-            </tr>
-            <tr>
-                <td>Sebastien</td>
-                <td>M</td>
-            </tr>
-            <tr>
-                <td>Thomy</td>
-                <td>Noel</td>
-            </tr>
-            <tr>
-                <td>Dorian</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lou</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Conteneur pour la table -->
+    <div class="container table-container">
+        <!-- Logo du site -->
+        <div class="text-center">
+            <img src="https://expernet.re/wp-content/themes/tm-bootstrap/images/logo.png" alt="Logo Expernet" class="logo">
+        </div>
 
-    <!-- Bouton pour revenir à la page index.html -->
-    <br>
-    <button onclick="window.location.href='index.html'">Revenir à la page de connexion</button>
+        <h2>Liste des étudiants de CDA8</h2>
 
-    <!-- Script Data Table-->
+        <table id="mTable1" class="table table-striped display">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AHOVEY</td>
+                    <td>SaintGeorge</td>
+                </tr>
+                <tr>
+                    <td>AHYONG</td>
+                    <td>Emjy</td>
+                </tr>
+                <tr>
+                    <td>BToma</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>CELEMANI</td>
+                    <td>Theo</td>
+                </tr>
+                <tr>
+                    <td>Cheun</td>
+                    <td>RAMASSY</td>
+                </tr>
+                <tr>
+                    <td>Demontis</td>
+                    <td>Matisse</td>
+                </tr>
+                <tr>
+                    <td>GRONDIN</td>
+                    <td>Clarel</td>
+                </tr>
+                <tr>
+                    <td>Jeremy</td>
+                    <td>Hoarau</td>
+                </tr>
+                <tr>
+                    <td>MUNIER</td>
+                    <td>Jerome</td>
+                </tr>
+                <tr>
+                    <td>Pedre</td>
+                    <td>Gabriel</td>
+                </tr>
+                <tr>
+                    <td>Sebastien</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>Thomy</td>
+                    <td>Noel</td>
+                </tr>
+                <tr>
+                    <td>Dorian</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Lou</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Bouton pour revenir à la page index.html -->
+        <br>
+        <button class="btn btn-primary btn-block" onclick="window.location.href='index.html'">Revenir à la page de connexion</button>
+    </div>
+
+    <!-- Lien vers les scripts de Bootstrap et DataTables -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
     <script>
         $(document).ready( function () {

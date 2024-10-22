@@ -3,41 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
+    <title>Connexion - Expernet</title>
 
-    <!-- Lien vers le CSS de Bootstrap -->
+    <!-- Lien vers le CSS de Bootstrap et de ton thème -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://expernet.re/wp-content/themes/tm-bootstrap/style.css">
+    <link rel="stylesheet" href="https://expernet.re/wp-content/themes/tm-bootstrap/bootstrap-custom.css">
+    
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Roboto', sans-serif;
+        }
+        .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .login-box {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        .login-box h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #333333;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .text-center a {
+            color: #007bff;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 1.5rem;
+            max-width: 150px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container h-100 d-flex justify-content-center align-items-center">
-        <div class="row">
-            <div class="col-md-8 offset-md-3">
-                <!-- Ajout de l'image au-dessus du formulaire -->
-                <div class="text-center mb-4">
-                    <img src="https://expernet.re/wp-content/themes/tm-bootstrap/images/logo.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
-                </div>
 
-                <h2 class="text-center mb-4">Formulaire de Connexion</h2>
-                <form action="liste.html" method="POST">
-                    <div class="form-group">
-                        <label for="username">Email :</label>
-                        <input type="text" id="username" name="username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Mot de passe :</label>
-                        <input type="password" id="password" name="password" class="form-control" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
-                </form>
-                <p class="text-center mt-3">
-                    Pour vous connecter anonymement, suivez le 
-                    <a href="liste.html" class="link-opacity-100">lien suivant</a>
-                </p>
+    <div class="login-container">
+        <div class="login-box col-md-4">
+            <!-- Logo du site -->
+            <div class="text-center">
+                <img src="https://expernet.re/wp-content/themes/tm-bootstrap/images/logo.png" alt="Logo Expernet" class="logo">
             </div>
+
+            <h2 class="text-center">Formulaire de Connexion</h2>
+
+            <form action="liste.html" method="POST">
+                <div class="form-group">
+                    <label for="username">Email :</label>
+                    <input type="text" id="username" name="username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+            </form>
+
+            <p class="text-center mt-3">
+                Pour vous connecter anonymement, suivez le 
+                <a href="liste.html">lien suivant</a>
+            </p>
         </div>
     </div>
 
-    <!-- Lien vers le JS de Bootstrap et de jQuery -->
+    <!-- Lien vers les scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
