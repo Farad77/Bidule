@@ -1,1 +1,2 @@
 "# Bidule" 
+copyright Sebastien Manglou
