@@ -1,0 +1,107 @@
+[33mcommit 08800bc133b9cf9dc13304843c364ebbf8a9e0f1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: e17e6e4 7a81d3a
+Author: Rassaby Ludovic <Ludovic.rassaby@gmail.com>
+Date:   Tue Oct 22 09:10:29 2024 +0400
+
+    Merge branch 'main' of https://github.com/Farad77/Bidule
+
+[33mcommit 7a81d3ad4e086006f30d1ddf1fd6324e8e7100a2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 1d38b22 3585ff6
+Author: Jeremy Hoarau <jeremyhoarau44@gmail.com>
+Date:   Tue Oct 22 09:18:18 2024 +0400
+
+    Merge branch 'main' of https://github.com/Farad77/Bidule
+
+[33mcommit 1d38b22d105f6a8061f7d2c4aa9d01867b152df1[m
+Author: Jeremy Hoarau <jeremyhoarau44@gmail.com>
+Date:   Tue Oct 22 09:18:06 2024 +0400
+
+    ajout Jeremy.txt
+
+[33mcommit 3585ff6594b59da8f1a2a7dc2fd7857762ca8d3b[m
+Merge: b0e680b 4488492
+Author: Théo CELEMANI <tcelemani.cda@formation.local>
+Date:   Tue Oct 22 09:10:13 2024 +0400
+
+    Merge branch 'main' of https://github.com/Farad77/Bidule
+
+[33mcommit e17e6e4b50201c26b3194333de42f31fc17742fc[m
+Merge: 148526e 4488492
+Author: Rassaby Ludovic <Ludovic.rassaby@gmail.com>
+Date:   Tue Oct 22 09:08:57 2024 +0400
+
+    Merge branch 'main' of https://github.com/Farad77/Bidule
+
+[33mcommit b0e680b8e271333568c2f9208bc2322ae405c9e0[m
+Merge: 70cb5a2 5bbbb96
+Author: Théo CELEMANI <tcelemani.cda@formation.local>
+Date:   Tue Oct 22 09:08:21 2024 +0400
+
+    Merge branch 'main' of https://github.com/Farad77/Bidule
+
+[33mcommit 448849261618b5886edb7f3e1a0e21cfcc3d1ea2[m
+Author: AHOVEY Saint-George <sgahovey@gmail.com>
+Date:   Tue Oct 22 09:07:43 2024 +0400
+
+    sggggg
+
+[33mcommit 20fe01b014c1f8affd616b7934e5a053863510b9[m
+Author: AH-YONG Emjy <emjy.ahyong@gmail.com>
+Date:   Tue Oct 22 09:06:42 2024 +0400
+
+    mj
+
+[33mcommit 5bbbb9638c8dd8ada087f759e1a6bb2f5f84d62d[m
+Merge: cc87f6b 0f6310e
+Author: GRONDIN Clarel <clarelgrondin@gmail.com>
+Date:   Tue Oct 22 09:04:47 2024 +0400
+
+    Merge branch 'main' of https://github.com/Farad77/Bidule
+
+[33mcommit 70cb5a22d4bc593b0325c4f9c16aecfb75ff213d[m
+Author: Théo CELEMANI <tcelemani.cda@formation.local>
+Date:   Tue Oct 22 08:53:04 2024 +0400
+
+    Ajout fichier
+
+[33mcommit 0f6310e919372ba0ddc55806a60d5c4ec7427ba2[m
+Author: Mat911 <matisse.demontis@gmail.com>
+Date:   Tue Oct 22 08:51:08 2024 +0400
+
+    add despacito textfile
+
+[33mcommit 148526e2957e1b969c4d6d2a2d9cd31d01b5634e[m
+Author: Rassaby Ludovic <Ludovic.rassaby@gmail.com>
+Date:   Tue Oct 22 08:51:07 2024 +0400
+
+    add Ludovic.txt
+
+[33mcommit cc87f6be0f9cec9cb53284d47809984278b112c7[m
+Author: GRONDIN Clarel <clarelgrondin@gmail.com>
+Date:   Tue Oct 22 08:50:41 2024 +0400
+
+    Clarel ajout
+
+[33mcommit 6fed42738ebf207bf9bf925644fa5a50e1643a36[m
+Author: gaad pasou <farad77@gmail.com>
+Date:   Tue Oct 22 08:46:32 2024 +0400
+
+    nettoyage
+
+[33mcommit 3fdb5b1d71b77dfcabc44b05edd45ff1e4c5cda1[m
+Author: gaad pasou <farad77@gmail.com>
+Date:   Tue Oct 22 08:44:58 2024 +0400
+
+    ajout copyrigt
+
+[33mcommit a4284054934fa680bb19fbe6ce9e77740ce44790[m
+Author: gaad pasou <farad77@gmail.com>
+Date:   Mon Oct 21 16:18:51 2024 +0400
+
+    ajout fichiers index
+
+[33mcommit d783c24aa63d75b636735ae8dfda0d13278b3b4f[m
+Author: gaad pasou <farad77@gmail.com>
+Date:   Mon Oct 21 16:13:36 2024 +0400
+
+    first commit
